@@ -67,7 +67,7 @@ class ArgumentAnalyst():
         else: 
             raise ValueError(f"Unknown type:  {type}")
         
-        self.messages.append(prompt)
+        self.messages.append({"role": "user", "content": prompt})
             
         completion = openai.ChatCompletion.create(
             model="gpt-3.5-turbo",
