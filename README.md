@@ -1,5 +1,5 @@
 # argue-about-everything-backend
-API version of [argue-about-everything] (https://github.com/skywalkermml/argue-about-everything)
+API version of [argue-about-everything](https://github.com/skywalkermml/argue-about-everything)
 
 ## Installation
 1. (optional) create and activate virtual env:  python -m venv venv & source venv/bin/activate
